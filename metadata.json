@@ -1,0 +1,6 @@
+{
+  "name": "Survey & Feedback Nexus",
+  "description": "Enterprise customer feedback orchestration platform with interactive multi-step survey studio, live NPS and sentiment analytics, response inbox, and role-based controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

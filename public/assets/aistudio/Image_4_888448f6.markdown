@@ -1,0 +1,232 @@
+---
+name: Survey & Feedback Nexus
+colors:
+  surface: '#faf8ff'
+  surface-dim: '#d2d9f4'
+  surface-bright: '#faf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f3ff'
+  surface-container: '#eaedff'
+  surface-container-high: '#e2e7ff'
+  surface-container-highest: '#dae2fd'
+  on-surface: '#131b2e'
+  on-surface-variant: '#464555'
+  inverse-surface: '#283044'
+  inverse-on-surface: '#eef0ff'
+  outline: '#777587'
+  outline-variant: '#c7c4d8'
+  surface-tint: '#4d44e3'
+  primary: '#3525cd'
+  on-primary: '#ffffff'
+  primary-container: '#4f46e5'
+  on-primary-container: '#dad7ff'
+  inverse-primary: '#c3c0ff'
+  secondary: '#006c49'
+  on-secondary: '#ffffff'
+  secondary-container: '#6cf8bb'
+  on-secondary-container: '#00714d'
+  tertiary: '#571ac0'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#6f3dd9'
+  on-tertiary-container: '#e3d5ff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#e2dfff'
+  primary-fixed-dim: '#c3c0ff'
+  on-primary-fixed: '#0f0069'
+  on-primary-fixed-variant: '#3323cc'
+  secondary-fixed: '#6ffbbe'
+  secondary-fixed-dim: '#4edea3'
+  on-secondary-fixed: '#002113'
+  on-secondary-fixed-variant: '#005236'
+  tertiary-fixed: '#e9ddff'
+  tertiary-fixed-dim: '#d0bcff'
+  on-tertiary-fixed: '#23005c'
+  on-tertiary-fixed-variant: '#5516be'
+  background: '#faf8ff'
+  on-background: '#131b2e'
+  surface-variant: '#dae2fd'
+typography:
+  display-hero:
+    fontFamily: Inter
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 48px
+  display-hero-mobile:
+    fontFamily: Inter
+    fontSize: 30px
+    fontWeight: '700'
+    lineHeight: 38px
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 40px
+  headline-lg-mobile:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+  headline-md:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  title-md:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+  label-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+  label-xs:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 1rem
+  margin: 2rem
+  margin-sm: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system expresses a contemporary, high-precision enterprise software aesthetic. Built for multi-user collaboration across product, research, and executive teams, the interface projects clarity, operational velocity, and trust.
+
+- **Design Philosophy:** Modern SaaS minimalism combined with low-contrast structural outlines and subtle tonal layering. Whitespace functions as an active structural element, preventing cognitive fatigue in high-density survey builders and feedback dashboards.
+- **Tone & Atmosphere:** Confident, analytical, frictionless, and orderly.
+- **Target Audience:** Product managers, UX researchers, CX leads, and enterprise administrators orchestrating continuous customer feedback loops and high-volume data collection.
+
+## Colors
+
+The palette employs a purposeful separation between core navigation, feedback completion health metrics, role taxonomy, and crisp neutral structural layers.
+
+- **Primary (`#4F46E5`):** High-density indigo utilized for key focal actions, interactive navigation items, selected states, and core progress indicators.
+- **Secondary / Accent (`#10B981`):** Precision emerald reserved for positive delta rates, live survey publication statuses, sentiment health metrics, and successful completion states.
+- **Tertiary (`#8B5CF6`):** Violet tone designated specifically for elevated organizational tiers and administrative management badges.
+- **Neutrals & Surfaces:**
+  - Base canvas: `#F8FAFC`
+  - Elevated card and panel surface: `#FFFFFF`
+  - Subtle structural border: `#E2E8F0`
+  - Secondary border & divider: `#F1F5F9`
+  - Primary text & headlines: `#0F172A` (Slate 900)
+  - Secondary body & metadata: `#475569` (Slate 600)
+  - Muted captions & icons: `#94A3B8` (Slate 400)
+- **Role Taxonomies:**
+  - Administrator: Background `#F5F3FF`, Text `#6D28D9`, Border `#DDD6FE`
+  - Standard User / Contributor: Background `#EFF6FF`, Text `#1D4ED8`, Border `#BFDBFE`
+  - Analyst / Viewer: Background `#F0FDF4`, Text `#047857`, Border `#BBF7D0`
+
+## Typography
+
+Typography prioritizes tabular clarity, crisp form labels, and effortless visual parsing across dense data reports.
+
+- **Primary Typeface:** `Inter` is applied universally across display headers, body layouts, dynamic metrics, and administrative tags to ensure unified vertical rhythm and predictable horizontal tracking.
+- **Numerical Treatment:** For metric scorecards, survey response totals, and NPS breakdowns, apply OpenType tabular numbers (`tnum`) to maintain structural balance during live data polling.
+- **Letter Spacing:** Maintain standard tracking for body copy; apply `-0.015em` to headings above `20px` to enhance density and authoritative tone. Use `+0.02em` for uppercase tags and micro-labels.
+
+## Layout & Spacing
+
+The layout model employs a responsive 12-column fluid grid tailored for analytical dashboards, multi-step survey composers, and granular review panels.
+
+- **Breakpoints:**
+  - Desktop / Ultra-Wide: `HL
+LˆÛÛ[[œËİ]\œËÌœØ[˜\ÈX\™Ú[œÊBˆHX›]ˆÍHLÎ\
+ÛÛ[[œËMœİ]\œËØ[˜\ÈX\™Ú[œÊBˆH[Øš[NˆÍ
+ÛÛ[[œËMœİ]\œËMœØ[˜\ÈX\™Ú[œÊB‹H
+Š”š]H	ˆİXİ\™NŠŠ‚ˆHÛÛ\Û™[Ø\È[™^[İ]ÛÛZ[™\œÈ[YÛˆÈ[ˆ[˜ÛÛ\›ÛZ\Ú[™ÈÎ[˜Ü™[Y[[ÜšY‚ˆH][K]Y\ˆ^[İ]È\ÙHHš^YÛÛ\ÚX›HY˜]šYØ][Ûˆ˜Z[
+^[™YÛÛ\ÙY
+KH›ZYÛÜšÜÜXÙH™YÚ[Û‹[™[ˆÜ[Û˜[ÍŒÛÛ^X[[œÜXİÜˆ˜]Ù\ˆ›ÜˆÜ˜[[\ˆ]Y\İ[Ûˆ]šX]\ÈÜˆ\Ù\ˆ\›Z\ÜÚ[ÛœË‚‚ˆÈÈ[]˜][Ûˆ	ˆ\‚•š\İX[Y\˜\˜ÚH™[Y\ÈÛˆÛX[ˆİ\™˜XÙH^Y\š[™ÈZ\™YÚ][˜KYY™\ÙY[XšY[ZXÜ›Ë\ÚYİÜÈ[™İXH\š[Y]\ˆİ][™\È
+ÑL‘NŒ
+K‚‚‹H
+Š”İ\™˜XÙH]™[ÎŠŠ‚ˆH˜\ÙNˆÑQØ
+]›Ü›H›İ[™][ÛŠBˆH]™[NˆÑ‘‘‘‘‘˜Ú]H\ÛÛ[[İ\ÈÛÛY›Ü™\ˆ[ˆÑL‘NŒ
+Y˜][ÛÜšÜÜXÙHØ\™Ë]HX›\ËY]šXÜÈ[™[ÊBˆH]™[ˆÑ‘‘‘‘‘˜Ú]›Ü™\ˆĞĞ‘QLX[™[XšY[[]˜][Ûˆ
+›Ş\ÚYİÎˆœL\™Ø˜JMKŒË‹ŒJKœLœ™Ø˜JMKŒË‹ŒJX
+H
+İ™\™YØ\™Ë›ÜİÛˆY[\Ë›[İ]Üİ™\œÊBˆH]™[ÎˆÑ‘‘‘‘‘˜Ú][]˜]Y›\ˆ
+›Ş\ÚYİÎˆŒ\M\™Ø˜JMKŒË‹Œ
+KLMœ™Ø˜JMKŒË‹Œ
+X
+H
+[Ù[Ú[™İÜËİ\™^HÙÚXÈZ[\œË›Ø][™ÈXİ[Ûˆ˜^\ÊB‚ˆÈÈÚ\\Â‚•H\ÚYÛˆŞ\İ[H[˜ÛÜœÜ˜]\È[[[Û˜[Ù[ÛY]H]˜[[˜Ù\È[Ù\›ˆÛÙ™\ÜÈÚ][\œš\ÙHY™šXÚY[˜ŞK‚‚‹H
+Š‘ÛØ˜[İ[™\™ŠŠˆ]™[˜
+›İ[™Y
+K‚ˆHXZ[ˆ]HØ\™ËY]šXÈÛÛZ[™\œË[™[Ù[X[ÙÜÈİšXİH[\[Y[›İ[™Y^
+K\™[HÈÜˆ\™[HÈMœ\[™[™ÈÛˆØØ[JK‚ˆHİ[™\™›Ü›HÛÛ›ÛË[œ][[Y[Ë]ÛœË[™ÙYÛY[YXÚÙ\œÈ\ÙH\™[X
+
+K‚ˆHÚ\Ëİ]\ÈİË[™›ÛH[™XØ]Üˆ[È\ÙH[H›İ[™Y[›İ[™\šY\È
+NNN\
+K‚‚ˆÈÈÛÛ\Û™[Â‚ˆÈÈÈ]ÛœÂ‹H
+Š”š[X\NŠŠˆÛÛYÍ‘MXš[Ñ‘‘‘‘‘˜^\™[X˜Y]\ËMœY[™Ëˆİ™\ˆİ]HÚYÈÈÍÌÎĞXˆ›Øİ\ÙYİ]H\Ü^\È[ˆİ]\ˆš[™È[ˆĞMPØ
+Üš[™Ë[Ù™œÙ]
+K‚‹H
+Š”ÙXÛÛ™\NŠŠˆİ\™˜XÙHÑ‘‘‘‘‘˜›Ü™\ˆ\ÛÛYÑL‘NŒ^ÌŒMÌXˆİ™\ˆ˜[œÚ][ÛœÈ˜XÚÙÜ›İ[™ÈÑQØ[™›Ü™\ˆÈĞĞ‘QLX‚‹H
+Š‘\İXİ]™NŠŠˆİ\™˜XÙHÑ‘QŒ‘Œ˜›Ü™\ˆ\ÛÛYÑ‘QL‘L˜^ÑÌŒ˜ˆİ™\ˆÚYÈÈÑ‘QL‘L˜‚‚ˆÈÈÈØ\™È	ˆY]šXÈ[\Â‹H
+Š”İXİ\™NŠŠˆİ\™˜XÙHÑ‘‘‘‘‘˜›Ü™\ˆ\ÛÛYÑL‘NŒÛÜ›™\ˆ˜Y]\È›İ[™Y^
+\™[JKˆY[™ÈÜXÙK[Ø
+
+K‚‹H
+Š“Y]šXÈØ\™ÎŠŠˆ\Ü^HHÜX[YÛ™YX™[
+X™[\ÛX
+K›ÛZ[™[Y]šXÈ™XYİ]
+\Ü^KZ\›ØÜˆXY[™K[Ø
+K[™[ˆ[›[™H›İÛH˜YÙH[™XØ][™È™\ÜÛœÙH™[ØÚ]H
+[Y\˜[ÌLNX˜YÙH›ÜˆÜÚ]]™H˜Z™XİÜšY\ÊK‚‚ˆÈÈÈ›ÛH	ˆİ]\È˜YÙ\Â‹H
+ŠYZ[ˆ˜YÙNŠŠˆ˜XÚÙÜ›İ[™ÑQŒÑ‘˜^Í‘X›Ü™\ˆ\ÛÛYÑ‘‘X˜Y]\ÈNNN\Üš^›Û[Y[™ÈL™\XØ[Y[™Èœ\ÙÜ˜\HX™[^Ø‚‹H
+Š•\Ù\ˆ˜YÙNŠŠˆ˜XÚÙÜ›İ[™ÑQ‘‘‘˜^ÌQQ›Ü™\ˆ\ÛÛYĞ‘‘‘‘X˜Y]\ÈNNN\Üš^›Û[Y[™ÈL™\XØ[Y[™Èœ\ÙÜ˜\HX™[^Ø‚‹H
+Š”İ\™^H]™H[™XØ]ÜŠŠˆ[Y\˜[İ
+ÌLNX
+HZ\™YÚ]ÑPÑ‘X˜XÚÙÜ›İ[™[\\˜Ø\ÙHØ\[Û‹‚‚ˆÈÈÈ›Ü›H[œ]È	ˆİ\™^HšY[Â‹H
+Š•^[œ]È	ˆ›ÜİÛœÎŠŠˆZYÚİ\™˜XÙHÑ‘‘‘‘‘˜›Ü™\ˆ\ÛÛYĞĞ‘QLX˜Y]\È\™[XY[™ÈLœ^ÌŒMÌXˆ›Øİ\ÈÚYÈ›Ü™\ˆÈÍ‘MXÚ]HİXH[È
+Ü™Ø˜JÎKÌŒKŒMJX
+K‚‹H
+Š•^\™X\ÈÈ™YY˜XÚÈ›ØÚÜÎŠŠˆY[™ÈLœZ[š[][HZYÚMœY[XØ[›Ü™\ˆ[™›Øİ\Èİ[\Ë‚‚ˆÈÈÈÙ[Xİ[ÛˆÛÛ›ÛÂ‹H
+ŠÚXÚØ›Ş\È	ˆ˜Y[ÜÎŠŠˆN[Y[œÚ[ÛœËK\›Ü™\ˆÎMLĞˆÙ[XİYİ]H™[™\œÈÍ‘MX˜XÚÙÜ›İ[™Ú]HÜš\ÜÚ]HÚXÚÛX\šÈÜˆ[›™\ˆİ‚‹H
+Š”ØØ[HÈ˜][™ÈXÚÙ\œÎŠŠˆÜš^›Û[]ÛˆÜ›İ\ËZYÚ\ˆ][K›Ü™\ˆÑL‘NŒXİ]™HÙ[XİY›ÙHš[YÚ]Í‘MX[™Ú]H^‚‚ˆÈÈÈ\İÈ	ˆ]HX›\Â‹H
+Š•X›HXY\œÎŠŠˆ˜XÚÙÜ›İ[™ÑQØ›Ü™\‹X›İÛH\ÛÛYÑL‘NŒ\ÙÜ˜\HX™[^Ø[ˆÍÍMMX˜XÚÚ[™ÈÚY\‹‚‹H
+Š”›İÈİ[[™ÎŠŠˆZYÚLœ[\›˜][™Èİ™\ˆİ]HÑQØ]šY\ˆ[™\È[ˆÑŒQQXˆÛÛ^Xİ[ÛœÈ™[XZ[ˆXÚÙY[ÈHšYÚX[YÛ™YÙXÛÛ™\HXÛÛˆY[H[[İ™\™Y
